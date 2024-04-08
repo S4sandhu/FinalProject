@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.finalproject.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_pexels"
+        android:name="com.example.finalproject.ui.pexels.PexelsFragment"
+        android:label="@string/menu_pexels"
+        tools:layout="@layout/fragment_pexels" />
+
+    <fragment
+        android:id="@+id/nav_movie_info"
+        android:name="com.example.finalproject.ui.movieinfo.MovieInfoFragment"
+        android:label="@string/menu_movie_info"
+        tools:layout="@layout/fragment_movie_info" />
+
+    <fragment
+        android:id="@+id/nav_ticket_master"
+        android:name="com.example.finalproject.ui.ticketmaster.TicketMasterFragment"
+        android:label="@string/menu_ticket_master"
+        tools:layout="@layout/fragment_ticket_master" />
+
+    <fragment
+        android:id="@+id/nav_soccer_match"
+        android:name="com.example.finalproject.ui.soccermatch.SoccerMatchFragment"
+        android:label="@string/menu_soccer_match"
+        tools:layout="@layout/fragment_soccer_match" />
+</navigation>

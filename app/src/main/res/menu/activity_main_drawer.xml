@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_pexels"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_pexels" />
+        <item
+            android:id="@+id/nav_movie_info"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_movie_info" />
+
+        <item
+            android:id="@+id/nav_ticket_master"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_ticket_master" />
+
+        <item
+            android:id="@+id/nav_soccer_match"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_soccer_match" />
+    </group>
+</menu>
