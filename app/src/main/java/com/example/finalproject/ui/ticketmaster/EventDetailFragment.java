@@ -114,7 +114,7 @@ public class EventDetailFragment extends Fragment {
         Picasso.get().load(event.getPromoImageUrl()).into(imageViewPromo);
         textViewTitle.setText(event.getName());
         textViewPriceRange.setText(String.format("Price Range: %s",event.getPriceRange()));
-        textViewStartingDate.setText(String.format("Start Time: %s",event.getStartingDate()));
+        textViewStartingDate.setText(String.format("Start Date: %s",event.getStartingDate()));
         textViewUrl.setText(String.format("URL: %s",event.getUrl()));
 
         // Handle URL click to open in web browser

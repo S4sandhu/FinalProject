@@ -51,7 +51,7 @@ public class Event {
         try {
             this.name = eventObject.getString("name");
             JSONObject date = eventObject.getJSONObject("dates");
-            this.startingDate = date.getJSONObject("start").getString("dateTime");
+            this.startingDate = date.getJSONObject("start").getString("localDate");
 //            JSONArray range = eventObject.getJSONArray("priceRanges");
 //            JSONObject rangeFirst = range.getJSONObject(0);
 //            double min = rangeFirst.getDouble("min");
